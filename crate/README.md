@@ -6,9 +6,9 @@
 <div align="center">
 
   [![Status](https://img.shields.io/badge/status-active-success.svg)]() 
-  [![GitHub Issues](https://img.shields.io/github/issues/silvia-odwyer/photon.svg)](https://github.com/silvia-odwyer/photon/issues)
-  [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/silvia-odwyer/photon.svg)](https://github.com/silvia-odwyer/p/pulls)
-  [![Gitter chat](https://badges.gitter.im/silvia-odwyer/photon.png)](https://gitter.im/photonlibrary/community "Gitter chat")
+  [![GitHub Issues](https://img.shields.io/github/issues/xtoshi999/photon.svg)](https://github.com/xtoshi999/photon/issues)
+  [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/xtoshi999/photon.svg)](https://github.com/xtoshi999/p/pulls)
+  [![Gitter chat](https://badges.gitter.im/xtoshi999/photon.png)](https://gitter.im/photonlibrary/community "Gitter chat")
   [![Crates.io](https://img.shields.io/crates/v/photon-rs)](https://crates.io/crates/photon-rs)
 
 </div>
@@ -20,12 +20,12 @@
 </p>
 
 ## 📝 Table of Contents
-- [Get Started with WebAssembly](https://github.com/silvia-odwyer/photon#-get-started-with-webassembly)
-- [Get Started Natively](https://github.com/silvia-odwyer/photon#getting-started)
+- [Get Started with WebAssembly](https://github.com/xtoshi999/photon#-get-started-with-webassembly)
+- [Get Started Natively](https://github.com/xtoshi999/photon#getting-started)
 - [Documentation](https://docs.rs/photon-rs/0.1.0/)
-- [Official Website.](https://silvia-odwyer.github.io/photon/)
-- [All Available Functions.](https://silvia-odwyer.github.io/photon/docs/photon/all.html)
-- [Got Questions? Ask Here!](https://github.com/silvia-odwyer/photon#got-questions)
+- [Official Website.](https://xtoshi999.github.io/photon/)
+- [All Available Functions.](https://xtoshi999.github.io/photon/docs/photon/all.html)
+- [Got Questions? Ask Here!](https://github.com/xtoshi999/photon#got-questions)
 
 Photon is a high-performance Rust image processing library, which compiles to WebAssembly, allowing for 
 safe, blazing-fast image processing both natively and on the web. 
@@ -38,11 +38,11 @@ with zero-cost abstraction.
 development.
 
 ### Live Demo
-View the [official demo of WASM in action](https://silvia-odwyer.github.io/photon/demo.html).
+View the [official demo of WASM in action](https://xtoshi999.github.io/photon/demo.html).
 
 ### Get Started
 #### Getting Started Guide
-Check out Photon's [getting started guide, complete with tutorials, installation instructions, and more](https://silvia-odwyer.github.io/photon/guide)
+Check out Photon's [getting started guide, complete with tutorials, installation instructions, and more](https://xtoshi999.github.io/photon/guide)
 
 #### Documentation
 ### 📚 Documentation
@@ -83,14 +83,14 @@ photon-rs = "0.3.2"
 Install Photon as an npm module:
 
 ```bash
-npm install --save @silvia-odwyer/photon
+npm install --save @xtoshi999/photon
 ```
 
 ### Node.JS
 To install Photon as an npm module for Node.JS use:
 
 ```bash
-npm install --save @silvia-odwyer/photon-node
+npm install --save @xtoshi999/photon-node
 ```
 
 #### Using Photon Natively 
@@ -115,7 +115,7 @@ fn main() {
 }
 ```
 
-[For more examples, check out the guide on how to get started with Photon natively.](https://silvia-odwyer.github.io/photon/guide/using-photon-natively/)
+[For more examples, check out the guide on how to get started with Photon natively.](https://xtoshi999.github.io/photon/guide/using-photon-natively/)
 
 #### Using Photon On The Web 
 
@@ -136,7 +136,7 @@ All effects and filters can be viewed below and on the official website.
 ### Run Examples
 Clone this crate's official GitHub repo:
 ```sh
-git clone https://github.com/silvia-odwyer/photon
+git clone https://github.com/xtoshi999/photon
 ```
 
 Run the binary, which will perform an image processing function on an image:

@@ -5,11 +5,11 @@ description = "High-performance image processing library for native use and the 
 license = "Apache-2.0"
 name = "photon-rs"
 readme = "./README.md"
-repository = "https://github.com/silvia-odwyer/photon"
+repository = "https://github.com/xtoshi999/photon"
 version = "0.3.3"
 edition = "2021"
 exclude = ["pkg/*", "examples/input_images/*"]
-homepage = "https://silvia-odwyer.github.io/photon/"
+homepage = "https://xtoshi999.github.io/photon/"
 
 [lib]
 crate-type = ["cdylib", "rlib"]

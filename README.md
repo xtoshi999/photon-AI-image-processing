@@ -10,13 +10,13 @@
 <div align="center">
     
   [![Status](https://img.shields.io/badge/status-active-success.svg?logo=statuspal)]()
-  [![GitHub Issues](https://img.shields.io/github/issues/silvia-odwyer/photon.svg?logo=github)](https://github.com/silvia-odwyer/photon/issues)
-  [![Gitter Chat](https://img.shields.io/gitter/room/silvia-odwyer/photon?color=cyan&logo=Gitter)](https://gitter.im/photonlibrary/community "Gitter chat")
-  [![NPM Monthly Downloads](https://img.shields.io/npm/dm/@silvia-odwyer/photon?logo=npm&color=pink)](https://www.npmjs.com/package/@silvia-odwyer/photon)
-  [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/silvia-odwyer/photon/ci.yml?branch=master&logo=github&)](https://github.com/silvia-odwyer/photon/blob/master/.github/workflows/compile_wasm.yaml)
+  [![GitHub Issues](https://img.shields.io/github/issues/xtoshi/photon.svg?logo=github)](https://github.com/xtoshi/photon/issues)
+  [![Gitter Chat](https://img.shields.io/gitter/room/xtoshi/photon?color=cyan&logo=Gitter)](https://gitter.im/photonlibrary/community "Gitter chat")
+  [![NPM Monthly Downloads](https://img.shields.io/npm/dm/@xtoshi/photon?logo=npm&color=pink)](https://www.npmjs.com/package/@xtoshi/photon)
+  [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/xtoshi/photon/ci.yml?branch=master&logo=github&)](https://github.com/xtoshi/photon/blob/master/.github/workflows/compile_wasm.yaml)
 
   [![Crates.io](https://img.shields.io/crates/v/photon_rs?logo=rust)](https://crates.io/crates/photon_rs)
-  [![License](https://img.shields.io/github/license/silvia-odwyer/photon)](https://github.com/silvia-odwyer/photon/blob/master/LICENSE.md)
+  [![License](https://img.shields.io/github/license/xtoshi/photon)](https://github.com/xtoshi/photon/blob/master/LICENSE.md)
   [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/silvia_923)](https://twitter.com/silvia_923 "Follow on X/Twitter")
 </div>
 
@@ -27,12 +27,12 @@
 </p>
 
 ## 📝 Table of Contents
-- [Get Started with WebAssembly](https://github.com/silvia-odwyer/photon#get-started-with-webassembly)
-- [Get Started Natively](https://github.com/silvia-odwyer/photon#get-started-natively)
+- [Get Started with WebAssembly](https://github.com/xtoshi/photon#get-started-with-webassembly)
+- [Get Started Natively](https://github.com/xtoshi/photon#get-started-natively)
 - [Documentation](https://docs.rs/photon-rs/)
-- [Official Website](https://silvia-odwyer.github.io/photon/)
-- [All Available Functions](https://silvia-odwyer.github.io/photon/docs/photon/all.html)
-- [Got Questions? Ask Here!](https://github.com/silvia-odwyer/photon#got-questions)
+- [Official Website](https://xtoshi.github.io/photon/)
+- [All Available Functions](https://xtoshi.github.io/photon/docs/photon/all.html)
+- [Got Questions? Ask Here!](https://github.com/xtoshi/photon#got-questions)
 
 Photon is a high-performance Rust image processing library, which compiles to WebAssembly, allowing for
 safe, blazing-fast image processing both natively and on the web.
@@ -43,14 +43,14 @@ You can run Photon:
 - on Node with WebAssembly
 
 ### Features
-- **Fast:** On the web, Photon's high-performance allows it to run at near-native speed. Benchmarks can be found [here](https://github.com/silvia-odwyer/photon/wiki/Benchmarks).
+- **Fast:** On the web, Photon's high-performance allows it to run at near-native speed. Benchmarks can be found [here](https://github.com/xtoshi/photon/wiki/Benchmarks).
 - **Call with JS:** Want to use Photon on the web or with Node? Using a simple npm package, you're good to go. Get all the benefits of WebAssembly with zero-cost abstraction.
 - **Use Natively:** For command-line apps, native photo editing apps, and so forth, Photon's core codebase is in Rust, allowing for cross-platform
 development.
 - **Pure Rust** - Unlike other libraries, 100% of the library's codebase is written in Rust, so security and safety is guaranteed.
 
 ### Live Demo
-View the [official demo of WASM in action](https://silvia-odwyer.github.io/photon/demo.html).
+View the [official demo of WASM in action](https://xtoshi.github.io/photon/demo.html).
 
 ### Photon In Action
 
@@ -62,7 +62,7 @@ Version 0.3.2 has been released on Crates.io and NPM, with new features includin
 - A duotone filter and preset duotone effects
 - Image rotation
 - Dithering filter
-- Image cropping update (fixed in [PR #100](https://github.com/silvia-odwyer/photon/pull/100))
+- Image cropping update (fixed in [PR #100](https://github.com/xtoshi/photon/pull/100))
 
 ### Supported Image Formats
 The following image formats are supported:
@@ -76,7 +76,7 @@ The following image formats are supported:
 
 ### Get Started
 #### Getting Started Guide
-Check out Photon's [getting started guide, complete with tutorials, installation instructions, and more](https://silvia-odwyer.github.io/photon/guide)
+Check out Photon's [getting started guide, complete with tutorials, installation instructions, and more](https://xtoshi.github.io/photon/guide)
 
 ### 📚 Documentation
 View the [official documentation](https://docs.rs/photon-rs/).
@@ -131,7 +131,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 ```
 
 ##### See More Examples
-[For more examples, check out the guide on how to get started with Photon natively.](https://silvia-odwyer.github.io/photon/guide/using-photon-natively/)
+[For more examples, check out the guide on how to get started with Photon natively.](https://xtoshi.github.io/photon/guide/using-photon-natively/)
 
 ### Building WebAssembly package
 
@@ -145,25 +145,25 @@ wasm-pack build ./crate
 ## Get Started With WebAssembly
 ### Using a Bundler?
 #### Installing Photon
-If you're using Webpack or a bundler to build your project, install Photon via [npm](https://www.npmjs.com/package/@silvia-odwyer/photon):
+If you're using Webpack or a bundler to build your project, install Photon via [npm](https://www.npmjs.com/package/@xtoshi/photon):
 
 ```bash
-npm install @silvia-odwyer/photon
+npm install @xtoshi/photon
 ```
 
 You can run Photon directly in any web browser that supports WebAssembly, which includes Chrome, Firefox, Safari, and Edge.
 
 ##### Get Started with Photon on The Web
-To get started, [check out the guide](https://silvia-odwyer.github.io/photon/guide/using-photon-web/).
+To get started, [check out the guide](https://xtoshi.github.io/photon/guide/using-photon-web/).
 
 #### Using NodeJS?
 If you're intending to use Photon with NodeJS, you can install the NodeJS version of the library:
 
 ```bash
-npm install @silvia-odwyer/photon-node
+npm install @xtoshi/photon-node
 ```
 
-See the [NodeJS tutorial, which shows how to use Photon with NodeJS](https://silvia-odwyer.github.io/photon/guide/using-photon-node/).
+See the [NodeJS tutorial, which shows how to use Photon with NodeJS](https://xtoshi.github.io/photon/guide/using-photon-node/).
 
 #### Using Cloudflare Workers?
 If you're using Cloudflare Workers, you can install the following library to use Photon with Cloudflare Workers:
@@ -189,7 +189,7 @@ Photon contains a series of modules, which include:
 ### Quick Start Example
 Clone this repo:
 ```sh
-git clone https://github.com/silvia-odwyer/photon
+git clone https://github.com/xtoshi/photon
 ```
 
 Run the binary, which will perform an image processing function on an image:
@@ -200,8 +200,8 @@ cargo run --release
 Compare the original image with the outputted image, and you'll see the desired effect has been applied.
 
 ## Latest Updates
-- Halftoning effect for WASM - Added in [PR #184](https://github.com/silvia-odwyer/photon/pull/184)
-- WebP Encoding Support - Added in [PR #164](https://github.com/silvia-odwyer/photon/pull/164)
+- Halftoning effect for WASM - Added in [PR #184](https://github.com/xtoshi/photon/pull/184)
+- WebP Encoding Support - Added in [PR #164](https://github.com/xtoshi/photon/pull/164)
 
 ## Cool Projects Using Photon
 - [Next Image Processing API](https://github.com/yoeven/next-image-processing-api)
@@ -242,7 +242,7 @@ This repository continually receives new filters and updates from fellow contrib
 I'd like to extend my gratitude to all of you!
 
 Contributors include (be sure to add yourself to the list if you submitted a PR):
-* **Silvia O'Dwyer** - [@silvia-odwyer](https://github.com/silvia-odwyer)
+* **Silvia O'Dwyer** - [@xtoshi](https://github.com/xtoshi)
 * **Osman Turan** - [@osman-turan](https://github.com/osman-turan)
 * **Ivan Zvonimir Horvat** - [@Horki](https://github.com/Horki)
 * **Arnav Jindal** - [@Daggy1234](https://github.com/Daggy1234)
