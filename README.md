@@ -17,7 +17,6 @@
 
   [![Crates.io](https://img.shields.io/crates/v/photon_rs?logo=rust)](https://crates.io/crates/photon_rs)
   [![License](https://img.shields.io/github/license/xtoshi/photon)](https://github.com/xtoshi/photon/blob/master/LICENSE.md)
-  [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/silvia_923)](https://twitter.com/silvia_923 "Follow on X/Twitter")
 </div>
 
 ---
@@ -240,18 +239,6 @@ Photon is always accepting new filters and functions. In that vein if you'd like
 This repository continually receives new filters and updates from fellow contributors, for which I'm very grateful for! Thanks to the generous contributions of others, there are even more cool effects available in this library.
 
 I'd like to extend my gratitude to all of you!
-
-Contributors include (be sure to add yourself to the list if you submitted a PR):
-* **Silvia O'Dwyer** - [@xtoshi](https://github.com/xtoshi)
-* **Osman Turan** - [@osman-turan](https://github.com/osman-turan)
-* **Ivan Zvonimir Horvat** - [@Horki](https://github.com/Horki)
-* **Arnav Jindal** - [@Daggy1234](https://github.com/Daggy1234)
-* **NorbertGarfield** - [@NorbertGarfield](https://github.com/NorbertGarfield)
-* **bboshoven** - [@bboshoven](https://github.com/bboshoven)
-* **benliao** - [@benliao](https://github.com/benliao)
-* **Fineshop Design** - [@fineshop](https://github.com/fineshop)
-* **volbot** - [@volbot](https://github.com/volbot)
-* **Future You(?)** - (See Contributing above)
 
 ## License
 This project is licensed under the Apache 2.0 License - see the [LICENSE.md](LICENSE.md) file for details.
